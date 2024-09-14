@@ -1,0 +1,56 @@
+.App {
+  display: grid;
+  grid-template-areas:
+    "Header Header Header"
+    "Sidebar Container Container"
+    "Footer Footer Footer";
+  gap: 10px;
+  column-gap: 10px;
+  grid-template-columns: 0.7fr 3fr;
+}
+@media (max-width: 560px) {
+  .App {
+    display: grid;
+    grid-template-areas:
+      "Header Header"
+      "Sidebar Sidebar"
+      "Container Container"
+      "Footer Footer";
+    gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: 0.7fr 3fr;
+    padding: 0 10px;
+  }
+  .Sidebar {
+    grid-area: Sidebar;
+    border-right: 1px solid transparent;
+    /* background-color: blueviolet; */
+  }
+  .Footer {
+    gap: 5px;
+  }
+}
+
+.Header {
+  grid-area: Header;
+}
+.Sidebar {
+  grid-area: Sidebar;
+  border-right: 1px solid black;
+  /* background-color: blueviolet; */
+}
+.containerItem {
+  grid-area: Container;
+  /* background-color: aquamarine; */
+  padding: 30px 0;
+}
+.Footer {
+  grid-area: Footer;
+  /* background-color: brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border-top: 1px solid black;
+  padding: 10px;
+}

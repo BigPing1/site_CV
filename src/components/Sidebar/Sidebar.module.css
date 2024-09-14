@@ -1,0 +1,29 @@
+.container {
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* padding: 25px; */
+  /* gap: 30px; */
+}
+.link {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  border: 1px solid transparent;
+  width: 205px;
+  padding: 30px 40px;
+  /* background-color: blueviolet; */
+  transition: 1s;
+}
+.link:hover {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+@media (max-width: 560px) {
+  .link {
+    width: 100%;
+  }
+}

@@ -1,0 +1,47 @@
+.container {
+  width: 25%;
+  /* height: 100px; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  padding: 10px;
+  transition: 0.5s;
+  border-radius: 10px;
+
+  border: 1px solid transparent;
+}
+.container:hover {
+  /* background-color: darkgray; */
+  border: 1px solid black;
+}
+.icon {
+  width: 80px;
+  height: 80px;
+}
+@media (max-width: 560px) {
+  .container {
+    width: 75%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+
+    border: 1px solid transparent;
+  }
+  .icon {
+    width: 100px;
+    height: 100px;
+  }
+}
