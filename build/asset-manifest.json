@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58fa4dda.css",
+    "main.js": "/static/js/main.388f0ea8.js",
+    "static/js/453.0fbe92db.chunk.js": "/static/js/453.0fbe92db.chunk.js",
+    "static/media/Diploma.pdf": "/static/media/Diploma.11655de3d3f573e23579.pdf",
+    "static/media/Basicsof.pdf": "/static/media/Basicsof.25b10fc27e0819e5d5aa.pdf",
+    "static/media/Bits&bytes.pdf": "/static/media/Bits&bytes.d161b879a2ae973e28e3.pdf",
+    "static/media/Danylo.jpg": "/static/media/Danylo.6af9b54c4e15ec3a52c5.jpg",
+    "static/media/Essentials.pdf": "/static/media/Essentials.b05b5bffa2df22843055.pdf",
+    "static/media/Cisco.pdf": "/static/media/Cisco.77abe2efe7f3de6a9da4.pdf",
+    "static/media/maxd.pdf": "/static/media/maxd.f60f886ec1b0a4d7a701.pdf",
+    "static/media/afacad-v1-latin-600.woff2": "/static/media/afacad-v1-latin-600.8b5cec0f0eeac25683fc.woff2",
+    "static/media/afacad-v1-latin-500.woff2": "/static/media/afacad-v1-latin-500.5d482915d203b2e721c1.woff2",
+    "static/media/afacad-v1-latin-700.woff2": "/static/media/afacad-v1-latin-700.22a3ebf0069a3ddc22e5.woff2",
+    "static/media/afacad-v1-latin-regular.woff2": "/static/media/afacad-v1-latin-regular.49087e85e87efc32aab0.woff2",
+    "index.html": "/index.html",
+    "main.58fa4dda.css.map": "/static/css/main.58fa4dda.css.map",
+    "main.388f0ea8.js.map": "/static/js/main.388f0ea8.js.map",
+    "453.0fbe92db.chunk.js.map": "/static/js/453.0fbe92db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58fa4dda.css",
+    "static/js/main.388f0ea8.js"
+  ]
+}
